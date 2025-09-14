@@ -78,8 +78,8 @@ project-root/
 
 ⚡ Getting Started
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/aura.git
-cd aura
+git clone https://github.com/your-username/Migrant-Health-App.git
+cd Migrant-Health-App
 
 2️⃣ Install Dependencies
 
