@@ -1,21 +1,23 @@
-AURA – Kerala Migrant Healthcare App
+AURA – Migrant Healthcare App
 
-AURA is a full-stack healthcare platform designed to support migrant workers in Kerala.
-It provides multilingual access to healthcare features like doctor availability, emergency alerts, notifications, and test scheduling.
+AURA is a full-stack healthcare platform designed to support migrant workers.
+It provides multilingual access to healthcare features like doctor availability, emergency alerts, notifications, and test scheduling, ensuring inclusivity and accessibility for workers with diverse language and literacy backgrounds.
 
 🚀 Features
 
 User Authentication – Signup & Login system with JWT-based authentication.
 
-Multilingual Support – Language selector for better accessibility.
+Multilingual Support – Language selector for better accessibility across regions.
 
-Healthcare Dashboard – View health reports and family management options.
+Healthcare Dashboard – View health reports and manage family records.
 
 Emergency Button – Quick one-click SOS for urgent medical help.
 
 Notifications System – Alerts for appointments, emergencies, and updates.
 
 Doctor & Test Scheduling – Book appointments and medical tests.
+
+Offline + Cloud Modes – Works in low-connectivity areas with sync.
 
 🛠️ Tech Stack
 Frontend
@@ -119,15 +121,19 @@ LanguageSelector.tsx allows switching between supported languages.
 
 Content updates dynamically using LanguageContext.
 
+Designed for low-literacy users with icon-based navigation.
+
 📅 Roadmap
 
- Add role-based access (Doctor, Patient, Admin)
+ Add role-based access (Doctor, Patient, Worker)
 
- Improve UI/UX with animations
+ Improve UI/UX with animations & accessibility features
 
  Deploy to cloud (Vercel for frontend, Railway/Heroku for backend)
 
  Add real-time emergency alerts via WebSockets
+
+ Support QR-based worker identity & record access
 
 🤝 Contributing
 
